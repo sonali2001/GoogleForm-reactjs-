@@ -1,20 +1,20 @@
 .App {
   text-align: center;
+   background-color:rgb(180, 209, 219);
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-color: linen; 
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-  }
+    background-color: linen;
+    }
 }
-
 .App-header {
-  background-color: #282c34;
+  background-color:linen;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,11 +23,58 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App .MuiPaper-root{ 
+  background-color:white;  
+  height: 140px;
+  border-radius: 8px;
+  border-top-width:20px ; 
+}
+.App .Checkboxes{
+  width:45%;
+  height:10%;
+  margin-left:30%;
+  padding-top:20px;
+  text-align:center;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+.App .pageContent{
+  width: 600px;
+  margin-left:30%;
+  border-top-style: solid;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-right-width: 20px;
+  border-top-width: 20px;
+  border-color:rgb(5, 101, 136);;
+  border-block-end-width: 20px;
+  text-align: left;
+  
+}
+ 
 .App-link {
   color: #61dafb;
+  background-color: linen;
 }
 
+.App .Form {
+  color:blue;
+  width: 200px;
+  background-color: linen;
+}
+
+.MuiFormControlLabel-root{ 
+  margin-top: 50px;
+  margin-left: 50px;
+  color:black;
+  padding-left: 30px;
+
+}
+.MuiFormLabel-root{
+  margin-left: 25px;
+  margin-top: 5px;
+  color:black;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
